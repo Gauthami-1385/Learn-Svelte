@@ -7,3 +7,9 @@
 	<a href="/task1">Task 1</a>
 	<a href="/task2">Task 2</a>
 </nav>
+
+<style>
+	a {
+		text-decoration: none;
+	}
+</style>
