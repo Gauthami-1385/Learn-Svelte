@@ -30,15 +30,25 @@
 	.container {
 		background-color: white;
 		margin: 50px auto;
-		max-width: 500px;
+		max-width: 450px;
 		padding: 3em;
-		box-shadow: 0 3px 10px rgba(22, 26, 27, 0.459);
+		box-shadow: 0 3px 10px rgb(17, 63, 131);
 		border-radius: 15px;
 		font-family: sans-serif;
 	}
-	option {
-		/* height: 30px; */
+	label {
+		font-size: 18px;
+	}
+	select {
+		padding: 0.2em;
 		border-radius: 5px;
+		font-size: 16px;
+		font-family: sans-serif;
+		background-color: white;
+		border: none;
+		box-shadow: 0 3px 10px rgb(17, 63, 131);
+	}
+	option {
 		background-color: white;
 		font-size: 16px;
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
